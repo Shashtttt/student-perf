@@ -1,0 +1,284 @@
+{
+  "users": {
+    "alex@aetherlearn.com": {
+      "email": "alex@aetherlearn.com",
+      "name": "Alex Rivers",
+      "institute": "Aether Academy",
+      "state": "California",
+      "city": "San Francisco",
+      "role": "Student",
+      "accessKey": "123456",
+      "toggleDailyGoals": true,
+      "toggleEmailSummaries": false,
+      "toggleAdaptiveVoice": true
+    },
+    "sarah@cyberdyne.sys": {
+      "email": "sarah@cyberdyne.sys",
+      "name": "Dr. Sarah Connor",
+      "institute": "Cyberdyne Systems",
+      "state": "California",
+      "city": "Los Angeles",
+      "role": "Mentor",
+      "accessKey": "123456"
+    },
+    "arjun@aetherlearn.com": {
+      "email": "arjun@aetherlearn.com",
+      "name": "Prof. Arjun Singh",
+      "institute": "Aether Academy",
+      "state": "California",
+      "city": "San Francisco",
+      "role": "Mentor",
+      "accessKey": "123456"
+    },
+    "raishashvat836@gmail.com": {
+      "email": "raishashvat836@gmail.com",
+      "name": "shashvat rai",
+      "institute": "ncu",
+      "state": "haryana",
+      "city": "gurugram",
+      "role": "Student",
+      "accessKey": "123",
+      "toggleDailyGoals": true,
+      "toggleEmailSummaries": false,
+      "toggleAdaptiveVoice": true
+    }
+  },
+  "courses": {
+    "aml": {
+      "id": "aml",
+      "title": "Advanced Machine Learning",
+      "progress": 62,
+      "semester": "Semester 5",
+      "description": "Explore deep learning architectures, neural networks, and advanced predictive models. Study CNN operations, transformers, backpropagation, and optimization techniques to master state-of-the-art AI systems.",
+      "featured": true,
+      "imageName": "circuit_board.png",
+      "instructor": "Dr. Elena Vance",
+      "credits": 4,
+      "nextAssignment": "CNN Feature Mapping (June 10)"
+    },
+    "nlp": {
+      "id": "nlp",
+      "title": "Natural Language Processing",
+      "progress": 34,
+      "semester": "Semester 5",
+      "description": "Understand how machines process, interpret, and generate human language. Study tokenizer structures, word embeddings, attention mechanisms, and transformers for sequence modeling.",
+      "iconName": "Globe",
+      "instructor": "Dr. Priya Sharma",
+      "credits": 4,
+      "nextAssignment": "Attention Mechanisms Project (June 15)"
+    },
+    "distsys": {
+      "id": "distsys",
+      "title": "Distributed Systems",
+      "progress": 45,
+      "semester": "Semester 5",
+      "description": "Architect and design highly scalable, fault-tolerant network services, consistency protocols, and consensus algorithms. Study MapReduce models, Raft replication, and vector clocks in dynamic networks.",
+      "iconName": "Layers",
+      "instructor": "Prof. Marcus Brody",
+      "credits": 4,
+      "nextAssignment": "Raft Consensus (June 12)"
+    },
+    "dsa": {
+      "id": "dsa",
+      "title": "Data Structures & Algorithms",
+      "progress": 89,
+      "semester": "Semester 4",
+      "description": "Master the fundamental building blocks of efficient software design including graphs, trees, sorting, and dynamic programming. Analyze complexity bounds, recursive algorithms, and optimal data storage structures.",
+      "iconName": "Network",
+      "instructor": "Dr. Vikram Singh",
+      "credits": 4,
+      "nextAssignment": "Graph Flow Algorithms (Completed)"
+    },
+    "ai": {
+      "id": "ai",
+      "title": "Artificial Intelligence",
+      "progress": 100,
+      "semester": "Semester 4",
+      "description": "A comprehensive introduction to search algorithms, state-space exploration, heuristics, and classical reasoning methods. Study search agents, game theory, constraint satisfaction, and logical inference frameworks.",
+      "iconName": "Bot",
+      "instructor": "Dr. Ananya Desai",
+      "credits": 3,
+      "nextAssignment": "Alpha-Beta Pruning Agent (Completed)"
+    },
+    "db": {
+      "id": "db",
+      "title": "Database Systems",
+      "progress": 100,
+      "semester": "Semester 3",
+      "description": "Learn the principles of relational databases, SQL queries, transaction isolation, indexing strategies, and data modeling. Explore B+ tree index execution, normal forms, and transaction logging systems.",
+      "iconName": "Database",
+      "instructor": "Prof. Sourav Roy",
+      "credits": 4,
+      "nextAssignment": "B+ Tree Indexing lab (Completed)"
+    },
+    "os": {
+      "id": "os",
+      "title": "Operating Systems",
+      "progress": 100,
+      "semester": "Semester 3",
+      "description": "Dive into process scheduling, virtual memory management, deadlock prevention, concurrency control, and system calls. Understand kernel space execution, thread synchronization, and file system layouts.",
+      "iconName": "Cpu",
+      "instructor": "Dr. Julian Vance",
+      "credits": 4,
+      "nextAssignment": "Kernel Thread Scheduler (Completed)"
+    },
+    "cn": {
+      "id": "cn",
+      "title": "Computer Networks",
+      "progress": 100,
+      "semester": "Semester 2",
+      "description": "Discover the layers, routing protocols, sliding window mechanisms, congestion control, and socket programming APIs. Trace packet routing, TCP handshake mechanisms, and domain name resolution pipelines.",
+      "iconName": "Router",
+      "instructor": "Dr. Sarah Jenkins",
+      "credits": 3,
+      "nextAssignment": "TCP Socket Chat App (Completed)"
+    },
+    "compiler": {
+      "id": "compiler",
+      "title": "Compiler Design",
+      "progress": 12,
+      "semester": "Semester 5",
+      "description": "Study lexical analysis, parse tree generation, syntax-directed translation, semantic analysis, intermediate representation, and optimization. Implement scanners, parser engines, and assembly output generators.",
+      "iconName": "Scale",
+      "instructor": "Prof. Robert Chen",
+      "credits": 4,
+      "nextAssignment": "Lexer & Parser for Mini-C (June 20)"
+    },
+    "se": {
+      "id": "se",
+      "title": "Software Engineering",
+      "progress": 100,
+      "semester": "Semester 3",
+      "description": "Apply software engineering methodologies, design patterns, testing frameworks, CI/CD pipeline automation, and agile Scrum workflows. Master UML diagrams, refactoring patterns, and modular code construction.",
+      "iconName": "FileText",
+      "instructor": "Dr. Priya Sharma",
+      "credits": 3,
+      "nextAssignment": "Clean Architecture Design (Completed)"
+    },
+    "graphics": {
+      "id": "graphics",
+      "title": "Computer Graphics",
+      "progress": 78,
+      "semester": "Semester 4",
+      "description": "Learn 2D and 3D rendering pipelines, ray tracing foundations, OpenGL shader development, matrix transformations, and lighting models. Compute rasterization, shadows, textures, and camera projections.",
+      "iconName": "Sparkles",
+      "instructor": "Dr. Vikram Singh",
+      "credits": 3,
+      "nextAssignment": "Ray Tracing Reflections (June 18)"
+    },
+    "cyber": {
+      "id": "cyber",
+      "title": "Cyber Security & Cryptography",
+      "progress": 20,
+      "semester": "Semester 5",
+      "description": "Understand system threats, network security protocols, symmetric/asymmetric encryption, hash functions, and digital signatures. Examine network firewalls, penetration testing, RSA encryption, and key exchanges.",
+      "iconName": "Lock",
+      "instructor": "Prof. Clara Stone",
+      "credits": 4,
+      "nextAssignment": "RSA Key Exchange Hack (June 25)"
+    },
+    "eth": {
+      "id": "eth",
+      "title": "AI Ethics",
+      "progress": 100,
+      "semester": "Semester 1",
+      "description": "Examine the moral implications and societal impact of artificial intelligence. Focus on model alignment, training dataset bias, public privacy protection, transparent explainability, and policy governance regulations.",
+      "iconName": "Scale",
+      "instructor": "Dr. Ananya Desai",
+      "credits": 2,
+      "nextAssignment": "Ethics in Generative AI Essay (Completed)"
+    }
+  },
+  "submissions": {
+    "1": {
+      "id": 1,
+      "studentName": "Aditi Sharma",
+      "studentId": "25mca001",
+      "customId": "ID: CS-9821",
+      "assignmentName": "Graph Algorithms Implementation",
+      "courseCode": "CS-302",
+      "courseTag": "Algorithms",
+      "submittedTime": "2 hrs ago",
+      "submittedDate": "Oct 24, 09:15 AM",
+      "status": "Pending",
+      "content": "Implementation of Dijkstra's algorithm and Bellman-Ford using adjacency lists and priority queues in Python.",
+      "score": null,
+      "feedback": "",
+      "cohort": "Advanced Calculus - Sec A"
+    },
+    "2": {
+      "id": 2,
+      "studentName": "Rahul Verma",
+      "studentId": "25mca042",
+      "customId": "ID: WD-4432",
+      "assignmentName": "React Component Architecture",
+      "courseCode": "WD-201",
+      "courseTag": "Frontend Eng",
+      "submittedTime": "5 hrs ago",
+      "submittedDate": "Oct 24, 06:30 AM",
+      "status": "Needs Feedback",
+      "content": "Refactored custom hooks logic to separate API calls from visual render tree.",
+      "score": null,
+      "feedback": "",
+      "cohort": "Linear Algebra - Sec B"
+    },
+    "3": {
+      "id": 3,
+      "studentName": "Kavya Patel",
+      "studentId": "25mca016",
+      "customId": "ID: DB-7719",
+      "assignmentName": "Database Normalization Essay",
+      "courseCode": "DB-105",
+      "courseTag": "Data Systems",
+      "submittedTime": "1 day ago",
+      "submittedDate": "Oct 23, 16:45 PM",
+      "status": "Graded",
+      "content": "Detailed discussion on First Normal Form (1NF) up to Boyce-Codd Normal Form (BCNF).",
+      "score": 92,
+      "feedback": "Excellent work. The decomposition proofs are rigorous and clear.",
+      "cohort": "Physics 101 - Sec A"
+    }
+  },
+  "sessions": {
+    "1": {
+      "id": 1,
+      "title": "Linear Algebra Office Hours",
+      "date": "Tomorrow, 2:00 PM",
+      "duration": "60 mins",
+      "cohort": "Linear Algebra - Sec B",
+      "type": "Office Hours"
+    },
+    "2": {
+      "id": 2,
+      "title": "Calculus Advanced Calculus Review",
+      "date": "June 11, 4:00 PM",
+      "duration": "90 mins",
+      "cohort": "Advanced Calculus - Sec A",
+      "type": "Review Session"
+    },
+    "3": {
+      "id": 3,
+      "title": "Physics 101 Midterm Prep",
+      "date": "June 14, 10:00 AM",
+      "duration": "120 mins",
+      "cohort": "Physics 101 - Sec A",
+      "type": "Review Session"
+    }
+  },
+  "quizzes": {
+    "2269349709": {
+      "id": 2269349709,
+      "userEmail": "alex@aetherlearn.com",
+      "title": "End-Term 2024 - NLP",
+      "subtitle": "Generated from historical database",
+      "status": "download",
+      "type": "End-Term",
+      "year": "2024",
+      "subject": "Natural Language Processing",
+      "difficulty": "Intermediate",
+      "questionCount": 5,
+      "sessionMode": "Timed Quiz"
+    }
+  },
+  "chat_logs": {}
+}
